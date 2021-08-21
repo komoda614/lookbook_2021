@@ -38,8 +38,8 @@ html body main .model_name {
 @media only screen and (min-width: 761px) {
   html body main .model_name {
     height: 8vh;
-    top: 15vh;
-    left: 4vw;
+    top: 12vh;
+    left: 2.5vw;
   }
 }
 
@@ -58,6 +58,7 @@ html body main model-viewer {
     height: 74vh;
     top: 20vh;
     left: 4vw;
+    border: 2px solid #fff;
   }
 }
 
@@ -164,9 +165,9 @@ html body .scroll_area {
 @media only screen and (min-width: 761px) {
   html body .scroll_area {
     width: 26vw;
-    height: 37vh;
+    height: 31vh;
     bottom: 6vh;
-    left: 68vw;
+    left: 70vw;
     background-image: none;
     display: block;
   }
@@ -279,10 +280,10 @@ html body .items_smp a img {
 html body .item_container_pc {
   display: none;
   width: 24vw;
-  height: 74vh;
+  height: 76vh;
   position: fixed;
   top: 20vh;
-  left: 42vw;
+  left: 43vw;
 }
 
 @media only screen and (min-width: 761px) {
@@ -297,21 +298,26 @@ html body .item_container_pc .item_title {
 
 html body .item_container_pc .items_pc {
   width: 24vw;
-  height: 68vh;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  height: 69vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: space-between;
+  align-content: flex-start;
+}
+
+html body .item_container_pc .items_pc a {
+  width: 11vw;
+  max-width: 22vh;
+  height: 11vw;
+  max-height: 22vh;
+  margin-top: calc(23vh - 11vw);
 }
 
 html body .item_container_pc .items_pc a img {
-  width: 11.5vw;
-  max-width: 23vh;
-  height: 11.5vw;
-  max-height: 23vh;
+  width: 11vw;
+  max-width: 22vh;
+  height: 11vw;
+  max-height: 22vh;
 }
 
 html body .status_smp {
@@ -328,10 +334,10 @@ html body .status_smp img {
 html body .status_container_pc {
   display: none;
   width: 26vw;
-  height: 37vh;
+  height: 45vh;
   position: fixed;
   top: 20vh;
-  left: 68vw;
+  left: 70vw;
 }
 
 @media only screen and (min-width: 761px) {
