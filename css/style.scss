@@ -28,21 +28,21 @@ html {
       top: 60px;
       left: 0%;
       .mask_select_title_smp {
-        height: auto;
+        height: 15vw;
         width: 70vw;
         margin: 30vh auto 4vh auto;
         @include pc {
           display: none;
         }
         img {
-          height: auto;
+          height: 15vw;
           width: 70vw;
         }
       }
       .mask_select_title_pc {
         display: none;
         width: 45vw;
-        height: auto;
+        height: 5vw;
         margin: 18vh auto 8vh auto;
         @include pc {
           display: block;

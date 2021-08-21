@@ -39,8 +39,8 @@ html {
         z-index: 999;
         @include pc {
           height: 8vh;
-          top: 15vh;
-          left: 4vw;
+          top: 12vh;
+          left: 2.5vw;
         }
       }
 
@@ -57,6 +57,7 @@ html {
           height: 74vh;
           top: 20vh;
           left: 4vw;
+          border: 2px solid #fff;
         }
         // button {
         //   position: absolute;
@@ -165,9 +166,9 @@ html {
       align-items: center;
       @include pc {
         width: 26vw;
-        height: 37vh;
+        height: 31vh;
         bottom: 6vh;
-        left: 68vw;
+        left: 70vw;
         background-image: none;
         display: block;
       }
@@ -259,10 +260,10 @@ html {
     .item_container_pc {
       display: none;
       width: 24vw;
-      height: 74vh;
+      height: 76vh; // アイテム数によって変更
       position: fixed;
       top: 20vh;
-      left: 42vw;
+      left: 43vw;
       @include pc {
         display: block;
       }
@@ -272,20 +273,25 @@ html {
 
       .items_pc {
         width: 24vw;
-        height: 68vh;
-        position: absolute;
-        bottom: 0;
-        left: 0;
+        height: 69vh;
+        // position: absolute;
+        // bottom: 0;
+        // left: 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        align-content: space-between; // アイテム数によって変更
+        align-content: flex-start; // アイテム数によって変更
         a {
+          width: 11vw;
+          max-width: 22vh;
+          height: 11vw;
+          max-height: 22vh;
+          margin-top: calc(23vh - 11vw);
           img {
-            width: 11.5vw;
-            max-width: 23vh;
-            height: 11.5vw;
-            max-height: 23vh;
+            width: 11vw;
+            max-width: 22vh;
+            height: 11vw;
+            max-height: 22vh;
           }
         }
       }
@@ -303,10 +309,10 @@ html {
     .status_container_pc {
       display: none;
       width: 26vw;
-      height: 37vh;
+      height: 45vh;
       position: fixed;
       top: 20vh;
-      left: 68vw;
+      left: 70vw;
       @include pc {
         display: block;
       }
