@@ -1,96 +1,79 @@
-html body header {
-  height: 60px;
+@charset "UTF-8";
+html body main .background {
   width: 100vw;
+  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
 }
 
-@media only screen and (min-width: 761px) {
-  html body header {
-    height: 54px;
-  }
-}
-
-html body main {
-  height: calc(100vh - 60px);
+html body main .transition_1 {
   width: 100vw;
-  background: url(../clothes/image/common/window_background.jpeg) no-repeat center center/cover;
+  height: 100vh;
+  animation: fadein 3s ease 2s 1 forwards;
   position: fixed;
-  top: 60px;
-  left: 0%;
+  top: 0;
+  left: 0;
+  opacity: 0;
 }
 
-html body main .mask_select_title_smp {
-  height: 15vw;
-  width: 70vw;
-  margin: 30vh auto 4vh auto;
-}
-
-@media only screen and (min-width: 761px) {
-  html body main .mask_select_title_smp {
-    display: none;
+@keyframes fadein {
+  /*animation-nameで設定した値を書く*/
+  0% {
+    opacity: 0;
   }
-}
-
-html body main .mask_select_title_smp img {
-  height: 15vw;
-  width: 70vw;
-}
-
-html body main .mask_select_title_pc {
-  display: none;
-  width: 45vw;
-  height: 5vw;
-  margin: 18vh auto 8vh auto;
-}
-
-@media only screen and (min-width: 761px) {
-  html body main .mask_select_title_pc {
-    display: block;
+  /*アニメーション開始時は不透明度0%*/
+  100% {
+    opacity: 1;
   }
+  /*アニメーション終了時は不透明度100%*/
 }
 
-html body main .mask_select_title_pc img {
-  height: auto;
-  width: 45vw;
+html body main .transition_2 {
+  width: 100vw;
+  height: 100vh;
+  animation: fadein 3s ease 5s 1 forwards;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
 }
 
-html body main .select_icons {
-  width: 90vw;
-  height: 56vw;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-@media only screen and (min-width: 761px) {
-  html body main .select_icons {
-    width: 58vw;
-    height: auto;
-    margin: 8vh auto auto auto;
+@keyframes fadein {
+  /*animation-nameで設定した値を書く*/
+  0% {
+    opacity: 0;
   }
-}
-
-html body main .select_icons a {
-  width: 16vw;
-  height: auto;
-}
-
-@media only screen and (min-width: 761px) {
-  html body main .select_icons a {
-    width: 10vw;
+  /*アニメーション開始時は不透明度0%*/
+  100% {
+    opacity: 1;
   }
+  /*アニメーション終了時は不透明度100%*/
 }
 
-html body main .select_icons a img {
-  width: 16vw;
-  height: a;
+html body main .transition_3 {
+  width: 30vw;
+  height: 5vh;
+  animation: fadein 3s ease 5s 1 forwards;
+  position: fixed;
+  top: 65vh;
+  left: 35vw;
+  opacity: 0;
 }
 
-@media only screen and (min-width: 761px) {
-  html body main .select_icons a img {
-    width: 10vw;
+@keyframes fadein {
+  /*animation-nameで設定した値を書く*/
+  0% {
+    opacity: 0;
   }
+  /*アニメーション開始時は不透明度0%*/
+  100% {
+    opacity: 1;
+  }
+  /*アニメーション終了時は不透明度100%*/
+}
+
+html body main .transition_3 img {
+  width: 30vw;
+  height: 5vh;
 }
