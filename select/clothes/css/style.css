@@ -20,7 +20,7 @@ html body header {
 
 @media only screen and (min-width: 761px) {
   html body header {
-    height: 54px;
+    height: 7.6%;
   }
 }
 
@@ -42,7 +42,7 @@ html body main {
   }
 }
 
-html body main .model_name {
+html body main .model_name1 {
   height: 25px;
   width: auto;
   position: fixed;
@@ -52,12 +52,183 @@ html body main .model_name {
 }
 
 @media only screen and (min-width: 761px) {
-  html body main .model_name {
+  html body main .model_name1 {
     height: 30px;
     position: absolute;
     top: calc(50% - 250px);
-    left: calc(50% - 424px);
     transform: translateY(-50%) translateX(-50%);
+    left: calc(50% - 406px);
+  }
+}
+
+html body main .model_name2 {
+  height: 25px;
+  width: auto;
+  position: fixed;
+  top: 22px;
+  left: 20px;
+  z-index: 999;
+}
+
+@media only screen and (min-width: 761px) {
+  html body main .model_name2 {
+    height: 30px;
+    position: absolute;
+    top: calc(50% - 250px);
+    transform: translateY(-50%) translateX(-50%);
+    left: calc(50% - 406px);
+  }
+}
+
+html body main .model_name3 {
+  height: 25px;
+  width: auto;
+  position: fixed;
+  top: 22px;
+  left: 20px;
+  z-index: 999;
+}
+
+@media only screen and (min-width: 761px) {
+  html body main .model_name3 {
+    height: 30px;
+    position: absolute;
+    top: calc(50% - 250px);
+    transform: translateY(-50%) translateX(-50%);
+    left: calc(50% - 424px);
+  }
+}
+
+html body main .model_name4 {
+  height: 25px;
+  width: auto;
+  position: fixed;
+  top: 22px;
+  left: 20px;
+  z-index: 999;
+}
+
+@media only screen and (min-width: 761px) {
+  html body main .model_name4 {
+    height: 30px;
+    position: absolute;
+    top: calc(50% - 250px);
+    transform: translateY(-50%) translateX(-50%);
+    left: calc(50% - 406px);
+  }
+}
+
+html body main .model_name5 {
+  height: 25px;
+  width: auto;
+  position: fixed;
+  top: 22px;
+  left: 20px;
+  z-index: 999;
+}
+
+@media only screen and (min-width: 761px) {
+  html body main .model_name5 {
+    height: 30px;
+    position: absolute;
+    top: calc(50% - 250px);
+    transform: translateY(-50%) translateX(-50%);
+    left: calc(50% - 406px);
+  }
+}
+
+html body main .model_name6 {
+  height: 25px;
+  width: auto;
+  position: fixed;
+  top: 22px;
+  left: 20px;
+  z-index: 999;
+}
+
+@media only screen and (min-width: 761px) {
+  html body main .model_name6 {
+    height: 30px;
+    position: absolute;
+    top: calc(50% - 250px);
+    transform: translateY(-50%) translateX(-50%);
+    left: calc(50% - 424px);
+  }
+}
+
+html body main .model_name7 {
+  height: 25px;
+  width: auto;
+  position: fixed;
+  top: 22px;
+  left: 20px;
+  z-index: 999;
+}
+
+@media only screen and (min-width: 761px) {
+  html body main .model_name7 {
+    height: 30px;
+    position: absolute;
+    top: calc(50% - 250px);
+    transform: translateY(-50%) translateX(-50%);
+    left: calc(50% - 424px);
+  }
+}
+
+html body main .model_name8 {
+  height: 25px;
+  width: auto;
+  position: fixed;
+  top: 22px;
+  left: 20px;
+  z-index: 999;
+}
+
+@media only screen and (min-width: 761px) {
+  html body main .model_name8 {
+    height: 30px;
+    position: absolute;
+    top: calc(50% - 250px);
+    transform: translateY(-50%) translateX(-50%);
+    left: calc(50% - 406px);
+  }
+}
+
+html body main .model_name9 {
+  height: 25px;
+  width: auto;
+  position: fixed;
+  top: 22px;
+  left: 20px;
+  z-index: 999;
+}
+
+@media only screen and (min-width: 761px) {
+  html body main .model_name9 {
+    height: 30px;
+    position: absolute;
+    top: calc(50% - 250px);
+    transform: translateY(-50%) translateX(-50%);
+    left: calc(50% - 452px);
+  }
+}
+
+html body main .model_name10 {
+  height: 25px;
+  width: auto;
+  position: fixed;
+  top: 22px;
+  left: 20px;
+  z-index: 999;
+}
+
+@media only screen and (min-width: 761px) {
+  html body main .model_name10 {
+    height: 30px;
+    position: absolute;
+    top: calc(50% - 250px);
+    transform: translateY(-50%) translateX(-50%);
+    left: calc(50% - 378px);
   }
 }
 
@@ -74,9 +245,9 @@ html body main model-viewer {
 @media only screen and (min-width: 761px) {
   html body main model-viewer {
     width: 380px;
-    height: 460px;
+    height: 450px;
     position: absolute;
-    top: 50%;
+    top: calc(50% + 10px);
     left: calc(50% - 300px);
     transform: translateY(-50%) translateX(-50%);
     border: 2px solid #fff;
@@ -92,7 +263,7 @@ html body main .display_buttons {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 92px;
+  bottom: 94px;
 }
 
 @media only screen and (min-width: 761px) {
@@ -121,6 +292,7 @@ html body main .display_buttons .status_btn_container .arrow {
 html body main .display_buttons .status_btn_container img {
   height: 24px;
   width: auto;
+  margin-left: 2px;
 }
 
 html body main .display_buttons .item_btn_container {
@@ -143,6 +315,7 @@ html body main .display_buttons .item_btn_container .arrow {
 html body main .display_buttons .item_btn_container img {
   height: 24px;
   width: auto;
+  margin-left: 2px;
 }
 
 html body main .display_buttons .ar_btn_container {
@@ -162,6 +335,7 @@ html body main .display_buttons .ar_btn_container .camera {
 html body main .display_buttons .ar_btn_container button .ar_icon {
   height: 24px;
   width: auto;
+  margin-left: 2px;
 }
 
 html body main .arrow {

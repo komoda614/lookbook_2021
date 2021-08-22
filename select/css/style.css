@@ -141,7 +141,7 @@ html body main .background_area .select_icons {
 
 html body main .background_area .select_icons a {
   width: 16vw;
-  height: 16vw;
+  height: auto;
   opacity: 0.5;
 }
 
@@ -151,19 +151,19 @@ html body main .background_area .select_icons a:hover {
 
 @media only screen and (min-width: 761px) {
   html body main .background_area .select_icons a {
-    width: 20vw;
-    height: 20vw;
+    width: 20%;
+    height: auto;
   }
 }
 
 html body main .background_area .select_icons a img {
   width: 16vw;
-  height: 16vw;
+  height: auto;
 }
 
 @media only screen and (min-width: 761px) {
   html body main .background_area .select_icons a img {
-    width: 16vw;
-    height: 16vw;
+    width: 100%;
+    height: auto;
   }
 }
