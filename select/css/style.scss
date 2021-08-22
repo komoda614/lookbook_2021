@@ -118,21 +118,21 @@ html {
           }
           a {
             width: 16vw;
-            height: 16vw;
+            height: auto;
             opacity: 0.5;
             &:hover {
               opacity: 1;
             }
             @include pc {
-              width: 20vw;
-              height: 20vw;
+              width: 20%;
+              height: auto;
             }
             img {
               width: 16vw;
-              height: 16vw;
+              height: auto;
               @include pc {
-                width: 16vw;
-                height: 16vw;
+                width: 100%;
+                height: auto;
               }
             }
           }
