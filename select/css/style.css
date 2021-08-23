@@ -6,7 +6,7 @@ html body {
 
 html body header {
   height: 60px;
-  width: 100vw;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -79,7 +79,7 @@ html body main .background_area .mask_select_title_smp {
   height: auto;
   width: 58%;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
 }
@@ -118,12 +118,12 @@ html body main .background_area .mask_select_title_pc img {
 
 html body main .background_area .select_icons {
   width: 90%;
-  height: 20%;
+  height: 25%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
 }
@@ -142,17 +142,16 @@ html body main .background_area .select_icons {
 html body main .background_area .select_icons a {
   width: 16vw;
   height: auto;
-  opacity: 0.5;
-}
-
-html body main .background_area .select_icons a:hover {
-  opacity: 1;
 }
 
 @media only screen and (min-width: 761px) {
   html body main .background_area .select_icons a {
     width: 20%;
     height: auto;
+    opacity: 0.5;
+  }
+  html body main .background_area .select_icons a:hover {
+    opacity: 1;
   }
 }
 
