@@ -59,7 +59,7 @@ html body main .solid_space .model_name {
 
 html body main .solid_space model-viewer {
   width: 100vw;
-  height: calc(100vh - 160px);
+  height: calc(100vh - 150px);
   position: fixed;
   top: 60px;
   left: 0;
@@ -466,7 +466,7 @@ html body main .solid_space .scroll_area {
   bottom: 0;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
 }
 
 @media only screen and (min-width: 700px) {
@@ -485,6 +485,7 @@ html body main .solid_space .scroll_area {
 html body main .solid_space .scroll_area .arrow_left {
   width: 15px;
   height: 40px;
+  padding-bottom: 70px;
 }
 
 @media only screen and (min-width: 700px) {
@@ -501,9 +502,9 @@ html body main .solid_space .scroll_area .arrow_left img {
 
 html body main .solid_space .scroll_area .mask_icons {
   width: 300px;
-  height: 90px;
-  padding-top: 10px;
+  height: 70px;
   display: flex;
+  padding-bottom: 10px;
   align-items: center;
   overflow-x: auto;
   overflow-y: hidden;
@@ -534,9 +535,9 @@ html body main .solid_space .scroll_area .mask_icons::-webkit-scrollbar {
 
 html body main .solid_space .scroll_area .mask_icons img {
   width: 60px;
-  max-width: 90px;
+  max-width: 70px;
   height: auto;
-  max-height: 90px;
+  max-height: 70px;
 }
 
 @media only screen and (min-width: 700px) {
@@ -563,6 +564,7 @@ html body main .solid_space .scroll_area .mask_icons a img {
 html body main .solid_space .scroll_area .arrow_right {
   width: 15px;
   height: 40px;
+  padding-bottom: 70px;
 }
 
 @media only screen and (min-width: 700px) {

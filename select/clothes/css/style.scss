@@ -76,7 +76,7 @@ html {
 
         model-viewer {
           width: 100vw;
-          height: calc(100vh - 160px);
+          height: calc(100vh - 150px);
           position: fixed;
           top: 60px;
           left: 0;
@@ -330,7 +330,7 @@ html {
           bottom: 0;
           display: flex;
           justify-content: space-around;
-          align-items: center;
+          align-items: flex-end;
           @include pc {
             width: 341px;
             height: 164px;
@@ -344,6 +344,7 @@ html {
           .arrow_left {
             width: 15px;
             height: 40px;
+            padding-bottom: 70px;
             @include pc {
               display: none;
             }
@@ -355,9 +356,9 @@ html {
           }
           .mask_icons {
             width: 300px;
-            height: 90px;
-            padding-top: 10px;
+            height: 70px;
             display: flex;
+            padding-bottom: 10px;
             align-items: center;
             overflow-x: auto;
             overflow-y: hidden;
@@ -381,9 +382,9 @@ html {
 
             img {
               width: 60px;
-              max-width: 90px;
+              max-width: 70px;
               height: auto;
-              max-height: 90px;
+              max-height: 70px;
               @include pc {
                 width: 67px;
                 height: auto;
@@ -406,6 +407,8 @@ html {
           .arrow_right {
             width: 15px;
             height: 40px;
+            padding-bottom: 70px;
+
             @include pc {
               display: none;
             }
