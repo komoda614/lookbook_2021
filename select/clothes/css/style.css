@@ -9,7 +9,7 @@ html body main {
 
 html body main header {
   width: 100%;
-  height: 7.4vh;
+  height: 60px;
   position: fixed;
   top: 0;
   left: 0;
@@ -19,7 +19,7 @@ html body main header {
 
 @media only screen and (min-width: 700px) {
   html body main header {
-    height: 7.6vh;
+    height: 54px;
   }
 }
 
@@ -39,7 +39,7 @@ html body main .solid_space {
 }
 
 html body main .solid_space .model_name {
-  width: 131px;
+  width: autos;
   height: 22px;
   position: fixed;
   top: 10vh;
@@ -59,9 +59,9 @@ html body main .solid_space .model_name {
 
 html body main .solid_space model-viewer {
   width: 100vw;
-  height: 82vh;
+  height: calc(100vh - 160px);
   position: fixed;
-  top: 7.4vh;
+  top: 60px;
   left: 0;
   z-index: 888;
   background: url(../image/common/background_pc.png) no-repeat center center/cover;
@@ -76,6 +76,11 @@ html body main .solid_space model-viewer {
     left: 54px;
     border: 2px solid #fff;
   }
+}
+
+html body main .solid_space model-viewer button {
+  width: 0;
+  height: 0;
 }
 
 html body main .solid_space .item_title {
@@ -157,7 +162,7 @@ html body main .solid_space .items_smp .item4 img {
   height: 125px;
 }
 
-html body main .solid_space .items_smp .item4 .item5 {
+html body main .solid_space .items_smp .item5 {
   width: 125px;
   height: 125px;
   position: fixed;
@@ -167,7 +172,22 @@ html body main .solid_space .items_smp .item4 .item5 {
   left: calc(50% - 70px);
 }
 
-html body main .solid_space .items_smp .item4 .item5 img {
+html body main .solid_space .items_smp .item5 img {
+  width: 125px;
+  height: 125px;
+}
+
+html body main .solid_space .items_smp .item6 {
+  width: 125px;
+  height: 125px;
+  position: fixed;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 999;
+  top: calc(50% + 100px);
+  left: calc(50% + 70px);
+}
+
+html body main .solid_space .items_smp .item6 img {
   width: 125px;
   height: 125px;
 }
@@ -252,12 +272,12 @@ html body main .solid_space .items_pc .item4_pc {
   }
 }
 
-html body main .solid_space .items_pc .item4_pc .item5_pc {
+html body main .solid_space .items_pc .item5_pc {
   display: none;
 }
 
 @media only screen and (min-width: 700px) {
-  html body main .solid_space .items_pc .item4_pc .item5_pc {
+  html body main .solid_space .items_pc .item5_pc {
     display: block;
     width: 143px;
     height: 143px;
@@ -266,7 +286,27 @@ html body main .solid_space .items_pc .item4_pc .item5_pc {
     top: 518px;
     left: 560px;
   }
-  html body main .solid_space .items_pc .item4_pc .item5_pc img {
+  html body main .solid_space .items_pc .item5_pc img {
+    width: 143px;
+    height: 143px;
+  }
+}
+
+html body main .solid_space .items_pc .item6_pc {
+  display: none;
+}
+
+@media only screen and (min-width: 700px) {
+  html body main .solid_space .items_pc .item6_pc {
+    display: block;
+    width: 143px;
+    height: 143px;
+    position: absolute;
+    z-index: 999;
+    top: 518px;
+    left: 716px;
+  }
+  html body main .solid_space .items_pc .item6_pc img {
     width: 143px;
     height: 143px;
   }
@@ -323,7 +363,7 @@ html body main .solid_space .display_buttons {
   display: flex;
   justify-content: space-around;
   position: fixed;
-  bottom: 92px;
+  bottom: 96px;
   z-index: 999;
 }
 
@@ -397,7 +437,7 @@ html body main .solid_space .display_buttons .ar_btn_container .camera {
   height: 27px;
 }
 
-html body main .solid_space .display_buttons .ar_btn_container button .ar_icon {
+html body main .solid_space .display_buttons .ar_btn_container .frame .ar_icon {
   height: 25px;
   width: auto;
   margin-left: 2px;
@@ -462,6 +502,7 @@ html body main .solid_space .scroll_area .arrow_left img {
 html body main .solid_space .scroll_area .mask_icons {
   width: 300px;
   height: 90px;
+  padding-top: 10px;
   display: flex;
   align-items: center;
   overflow-x: auto;
@@ -495,6 +536,7 @@ html body main .solid_space .scroll_area .mask_icons img {
   width: 60px;
   max-width: 90px;
   height: auto;
+  max-height: 90px;
 }
 
 @media only screen and (min-width: 700px) {
@@ -508,6 +550,7 @@ html body main .solid_space .scroll_area .mask_icons a img {
   width: 60px;
   max-width: 90px;
   height: auto;
+  max-height: 90px;
 }
 
 @media only screen and (min-width: 700px) {
