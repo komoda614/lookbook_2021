@@ -130,6 +130,7 @@ html body main .solid_space .items .item1 img {
     height: 143px;
     position: absolute;
     z-index: 999;
+    transform: translateY(0%) translateX(0%);
     top: 200px;
     left: 560px;
   }
@@ -161,6 +162,7 @@ html body main .solid_space .items .item2 img {
     height: 143px;
     position: absolute;
     z-index: 999;
+    transform: translateY(0%) translateX(0%);
     top: 200px;
     left: 716px;
   }
@@ -192,6 +194,7 @@ html body main .solid_space .items .item3 img {
     height: 143px;
     position: absolute;
     z-index: 999;
+    transform: translateY(0%) translateX(0%);
     top: 360px;
     left: 560px;
   }
@@ -223,6 +226,7 @@ html body main .solid_space .items .item4 img {
     height: 143px;
     position: absolute;
     z-index: 999;
+    transform: translateY(0%) translateX(0%);
     top: 360px;
     left: 716px;
   }
@@ -254,6 +258,7 @@ html body main .solid_space .items .item5 img {
     height: 143px;
     position: absolute;
     z-index: 999;
+    transform: translateY(0%) translateX(0%);
     top: 518px;
     left: 560px;
   }
@@ -285,6 +290,7 @@ html body main .solid_space .items .item6 img {
     height: 143px;
     position: absolute;
     z-index: 999;
+    transform: translateY(0%) translateX(0%);
     top: 518px;
     left: 716px;
   }
