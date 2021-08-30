@@ -24,6 +24,7 @@ $media-pc: 700px;
   height: 143px;
   position: absolute;
   z-index: 999;
+  transform: translateY(0%) translateX(0%);
   img {
     width: 143px;
     height: 143px;
